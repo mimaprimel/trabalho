@@ -1,0 +1,434 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFDDE3;
+    font-family: "Jua";
+    font-weight: 400;
+    font-size: 24px;           
+}
+
+.header2 {
+    display: flex;
+    color: white;
+    margin-left: 450px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    gap: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+.jaldi1 {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .jaldi2 {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.hRight > a{
+    color: black;
+}
+
+.hRight > img {
+    margin-left: 20px;
+}
+.header1 {
+    background-color: #ffd3d0;
+    
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0px 10px 20px rgb(136, 136, 136);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1 > div {
+    margin: 15px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.logo {
+    font-family: 'Sacramento';
+    font-size: 40px;
+    color:rgb(150, 18, 62)
+}
+
+.compras {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.titulo-novidades{
+    grid-row: 1;
+    grid-column: 1 / 5;
+    color:rgb(150, 18, 62);
+    font-size: 36px;
+    text-shadow: 2px 4px 0px #F69F9F;
+    margin: 0 auto;
+ }
+.grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 900px;
+    grid-column-gap: 49px; 
+    grid-row-gap: 20px; 
+}
+.item {
+    background-color: #ffd3d0;
+    border-radius: 25px;
+    overflow: hidden;
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item img {
+    max-width: 290px;
+    display: block;
+}
+
+.item button {
+    background-color: #cc7474;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top:50px;
+    width: 100%;
+}
+
+.item button:hover {
+    background-color: #ed5959;
+}
+
+section {
+    background-color: white;
+    
+}
+.forms {
+    display: flex;
+}
+
+form {
+    width: 30%;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+label {
+    font-family: "Jaldi", sans-serif;
+    color:rgb(150, 18, 62);
+    font-size: 13px;
+}
+
+form > div {
+    margin-top: 4%;
+}
+.inputfield {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 10px;
+    border:1px solid rgb(136, 136, 136);
+}
+
+.inputfield:focus {
+    outline: double 4px #F69F9F;
+}
+
+.crie {
+    font-size: 30px;
+    color:#965c66; 
+   
+}
+
+#criarconta {
+    background-color: #FFDDE3;
+    color:white;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-family: "Jaldi", sans-serif;
+
+    font-size: 25px;
+}
+
+#criarconta:hover {
+    outline: dashed 4px #F69F9F;
+    background-color: #F69F9F;
+}
+
+.page1{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    padding: 50px;
+}
+
+.mini {
+    display: flex;
+    flex-direction: column;
+}
+
+.mini > img{
+    margin-bottom: 20px;
+}
+
+.mainimg {
+    margin: 0 20px;
+}
+
+.bixonome {
+    color: #F69F9F;
+}
+
+.bixoinfo {
+    font-size: 15px;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 600;
+}
+
+h2, h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tipobutton > button{
+    border: 2px solid #FFDDE3;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 600;
+}
+
+.tipobutton > button:hover{
+    outline: dashed 2px #F69F9F;
+}
+
+.tipobutton > button:nth-child(1) {
+    background-color: #FFDDE3;
+    color: white;
+}
+
+.tipobutton > button:nth-child(2) {
+    background-color: rgb(160, 93, 93);
+    color: rgb(158, 158, 158);
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.comprar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.comprarbutton > button{
+    border: none;
+    background-color: #b85b5b;
+
+    color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 600;
+}
+
+.unidades {
+    border: 1px solid #FFA8A8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.unidades > button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 24px;
+}
+
+.unidades > button:hover {
+    outline: dotted 2px #FFA8A8;
+}
+
+.line {
+    background-color: rgb(158, 158, 158);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1px;
+}
+
+.envio {
+    color:#b86877;
+    font-size: 19px;
+}
+
+.envio > p {
+    margin-bottom: 15px;
+}
+
+.envio > input {
+    border-radius: 100px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.envio > input::placeholder {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 600;
+    color:rgb(202, 202, 202);
+}
+
+.naoseicep > a{
+    color:black;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+@media (max-width: 1100px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .novidades {
+        grid-row: 1;
+        grid-column: 1 / 4;
+    }
+
+    .devolta {
+        grid-row: 4;
+        grid-column: 1 / 4;
+    }
+
+    .item:nth-child(n+7) {
+        grid-row: 5;
+    }
+    .item:nth-child(n+10) {
+        grid-row: 6;
+    }
+    
+    .page1 {
+        flex-direction: column;
+    }
+
+    .mini {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .comprar {
+        justify-content: right;
+        gap: 10px;
+    }
+
+    .header2{
+        margin-left: 100px;
+    }
+    
+}
+.titulo{
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 4px 0px #F69F9F;
+}
+
+footer {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+
+}
+
+.info {
+    display: flex;
+}
+.info > div > ul {
+    list-style: none;
+}
+
+.info > div > ul > li {
+    margin-top: 10px;
+}
+
+.info > div > ul > li > img {
+    margin-right: 7px;
+}
+.infoimagens {
+    display: flex;
+    flex-direction: column  ;
+    margin-top: 15px;
+}
+.infoimagens > img{
+    width: 130px;
+    margin-right: 30px;
+}
+section {
+    background-color: white;
+}
+
+.secao {
+    font-size: 15px;
+    font-family: "Jaldi", sans-serif;
+    color: #bd6969;     
+}
+
+.page {
+    margin-left: 100px;
+    max-width: 720px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.texto {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.gatos > img {
+    margin-right: 30px;
+}
+
+.supertext {
+    position: relative;
+
+    top: 10px;
+}
